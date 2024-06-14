@@ -23,10 +23,10 @@
     font-size: 25px;
     color: #344151;
     border-radius: 0.125rem; 
-    gap: 3rem; /* equivalent to gap-12 */
-    padding: 0.75rem; /* equivalent to p-3 */
-    padding-left: 1.25rem; /* equivalent to px-5 */
-    padding-right: 1.25rem; /* equivalent to px-5 */
+    gap: 3rem; 
+    padding: 0.75rem;
+    padding-left: 1.25rem; 
+    padding-right: 1.25rem; 
 }
 
 .button {
@@ -36,13 +36,13 @@
 }
 
 .minus {
-    border-right: 0.125rem solid #bfbfbf; /* equivalent to border-r-2 and border color */
-    padding-right: 1.25rem; /* equivalent to pr-5 */
+    border-right: 0.125rem solid #bfbfbf; 
+    padding-right: 1.25rem;
 }
 
 .plus {
-    border-left: 0.125rem solid #bfbfbf; /* equivalent to border-l-2 and border color */
-    padding-left: 1.25rem; /* equivalent to pl-5 */
+    border-left: 0.125rem solid #bfbfbf; 
+    padding-left: 1.25rem; 
 }
 
 .count {
