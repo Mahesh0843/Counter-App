@@ -1,0 +1,50 @@
+/* Utility classes */
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #344151;
+    gap: 2.5rem;  
+}
+
+.title {
+    color: #0398d4;
+    font-weight: 500; 
+    font-size: 20px;
+    margin-bottom: 1.5rem; 
+}
+
+.counter-container {
+    background-color: white;
+    display: flex;
+    font-size: 25px;
+    color: #344151;
+    border-radius: 0.125rem; 
+    gap: 3rem; /* equivalent to gap-12 */
+    padding: 0.75rem; /* equivalent to p-3 */
+    padding-left: 1.25rem; /* equivalent to px-5 */
+    padding-right: 1.25rem; /* equivalent to px-5 */
+}
+
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.minus {
+    border-right: 0.125rem solid #bfbfbf; /* equivalent to border-r-2 and border color */
+    padding-right: 1.25rem; /* equivalent to pr-5 */
+}
+
+.plus {
+    border-left: 0.125rem solid #bfbfbf; /* equivalent to border-l-2 and border color */
+    padding-left: 1.25rem; /* equivalent to pl-5 */
+}
+
+.count {
+    font-weight: bold;
+}
